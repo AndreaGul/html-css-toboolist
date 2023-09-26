@@ -121,8 +121,20 @@ li{
     border-radius: 10px;
 }
 
-.edit-mod {
+.Editorial-mod {
     background-color: blue;
+}
+
+.Q1-goals-mod{
+    background-color: #ab5de6;
+}
+
+.Recruit-mod{
+    background-color: #2cc6ab;
+}
+
+.Mobile-mod{
+    background-color: #ff9b00;
 }
 
 /* /parola evidenziata */
