@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/* header */
+/* header della pagina con logo e titolo */
 
 .logo {
     margin: 10px 5px 10px 15px;
@@ -18,20 +18,24 @@ h1 {
     font-size: 40px;
     font-weight: 700;
 }
- /* /header */
+ /* /header della pagina con logo e titolo */
 
+ /* sfondo */
  main {
     background-color: #f6f8f9;
-    height: 500px;
+    
     padding: 30px;
     font-family: 'Roboto', sans-serif
  }
+/* /sfondo */
 
+/*  contenitore dei vari blocchi */
  .container {
     background-color: white;
     width: 600px;
     margin: 0 auto;
  }
+ /*  /contenitore dei vari blocchi */
 
  /* pulsanti */
  .botton-part {
@@ -122,7 +126,7 @@ li{
 }
 
 .Editorial-mod {
-    background-color: blue;
+    background-color: #09a9ed;
 }
 
 .Q1-goals-mod{
@@ -135,6 +139,15 @@ li{
 
 .Mobile-mod{
     background-color: #ff9b00;
+}
+
+.Website-mod{
+    background-color: #ec4a9d;
+
+}
+
+.Sales-mod{
+    background-color: #a3d116;
 }
 
 /* /parola evidenziata */
