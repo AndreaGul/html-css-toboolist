@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+.logo {
+    margin: 10px 5px 10px 15px;
+    vertical-align: middle;
+}
+
+h1 {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+ /* /header */
