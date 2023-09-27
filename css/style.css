@@ -99,34 +99,31 @@ li{
     margin-bottom: 20px;
 }
 
-.elemento-lista-check::before { 
+/* check e cross */
+.task-container ul li::before { 
     content: "\2713";
     display: inline-block;
     margin-right: 10px;
     height: 15px;
     width: 15px;
     border: 1px solid #3acab0;
-    border-radius: 50%;
+    border-radius: 50%; 
+    text-align: center;
+    line-height: 15px;
+    font-size: 11px;
+}
+
+.task-container ul li.check::before{
     color: #3acab0;
-    text-align: center;
-    font-size: 12px;
+    
 }
 
-
-
-.elemento-lista-cross::before {
-    content: "\2717";
-    display: inline-block;
-    margin-right: 10px;
-    height: 15px;
-    width: 15px;
-    border: 1px solid #ff4444;
-    border-radius: 50%;
+.task-container ul li.cross::before{
     color: #ff4444;
-    text-align: center;
-    font-size: 12px;
+    content: "\2717";
 }
-/* /lista */
+/* /check e cross */
+
 
 /* parola evidenziata */
 .mod-default {
@@ -164,6 +161,6 @@ li{
 }
 
 /* /parola evidenziata */
-
+/* /lista */
 
   /* /sezioni */
