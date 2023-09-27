@@ -76,8 +76,12 @@ h1 {
 .section-part {
     padding: 50px 50px;
     border-radius: 0px 0px 5px 5px;
+    
 }
 
+.task-container {
+    margin-bottom: 30px;
+}
 /* lista */
 .list-position {
     list-style-position: inside ;
