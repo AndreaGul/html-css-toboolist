@@ -6,6 +6,8 @@
 
 /* header della pagina con logo e titolo */
 
+
+
 .logo {
     margin: 10px 5px 10px 15px;
     vertical-align: middle;
@@ -32,7 +34,7 @@ h1 {
 /*  contenitore dei vari blocchi */
  .container {
     background-color: white;
-    width: 600px;
+    max-width: 600px;
     margin: 0 auto;
  }
  /*  /contenitore dei vari blocchi */
